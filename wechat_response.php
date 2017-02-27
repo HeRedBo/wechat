@@ -9,5 +9,5 @@ $wechat = new WeChat(APPID, APPSECRET, TOKEN);
 // 第一次验证：
 // $wechat->firstValid();
 //
-// 处理威信公众平台的的消息（事件）
+// 处理微信公众平台的的消息（事件）
 $wechat->responseMSG();
